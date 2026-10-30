@@ -2,9 +2,13 @@
   "version": 1,
   "entries": {
     "79a93d4a2f8f50b95f852280616242fee1855dc99a3c75211917f55e72e95fae": {
-      "last_emitted_at_ms": 1793385781174,
+      "last_emitted_at_ms": 1793386751405,
       "message": "Use parallel execution for independent tasks. Use run_in_background for long operations (npm install, builds, tests)."
+    },
+    "445ed27a3872b681d98190bae61ccb84954e1bc4e140df5370be958dee776b3a": {
+      "last_emitted_at_ms": 1793386583929,
+      "message": "Verify changes work after editing. Test functionality before marking complete."
     }
   },
-  "updated_at": "2026-10-30T18:43:01.174Z"
+  "updated_at": "2026-10-30T18:59:11.405Z"
 }

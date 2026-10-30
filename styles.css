@@ -635,3 +635,10 @@ img.brand-mark { object-fit: cover; display: inline-block; vertical-align: middl
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Day-one HR photo */
+.day-one { margin: 0 auto 40px; max-width: 560px; background: var(--cream-lt); padding: 12px 12px 16px; border: 3px solid var(--navy); border-radius: 6px; box-shadow: var(--shadow); transform: rotate(-1.2deg); }
+.day-one img { display: block; width: 100%; height: auto; border-radius: 3px; }
+.day-one figcaption { margin-top: 12px; font-size: .98rem; line-height: 1.45; color: var(--navy); }
+.day-one-tag { display: inline-block; margin-right: 6px; padding: 2px 8px; font-family: var(--f-mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; background: var(--mustard); border-radius: 4px; }
+@media (prefers-reduced-motion: no-preference) { .day-one { transition: transform .3s var(--spring); } .day-one:hover { transform: rotate(0deg) scale(1.01); } }
