@@ -642,3 +642,7 @@ img.brand-mark { object-fit: cover; display: inline-block; vertical-align: middl
 .day-one figcaption { margin-top: 12px; font-size: .98rem; line-height: 1.45; color: var(--navy); }
 .day-one-tag { display: inline-block; margin-right: 6px; padding: 2px 8px; font-family: var(--f-mono); font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; background: var(--mustard); border-radius: 4px; }
 @media (prefers-reduced-motion: no-preference) { .day-one { transition: transform .3s var(--spring); } .day-one:hover { transform: rotate(0deg) scale(1.01); } }
+
+/* Official YouTube subscribe widget */
+.yt-sub { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; min-height: 28px; }
+.yt-sub-label { font-family: var(--f-mono); font-size: .8rem; color: var(--mustard-lt); }
