@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nine to Fur | Surviving adulthood, one Monday at a time.</title>
+<meta name="description" content="Nine to Fur: an animated comedy about commutes, rent and burnout. 60-second episodes. Coming soon.">
+<link rel="canonical" href="https://9to4.com/">
+<meta name="theme-color" content="#14213D">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nine to Fur">
+<meta property="og:url" content="https://9to4.com/">
+<meta property="og:title" content="Nine to Fur | Surviving adulthood, one Monday at a time.">
+<meta property="og:description" content="Nine to Fur: an animated comedy about commutes, rent and burnout. 60-second episodes. Coming soon.">
+<meta property="og:image" content="https://9to4.com/assets/poster-crosswalk.jpg">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="800">
+<meta property="og:image:alt" content="Syed walks a crosswalk with his three felt coworkers: Mo the capybara, Pip the pigeon and Ms. Hoot the owl.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nine to Fur | Surviving adulthood, one Monday at a time.">
+<meta name="twitter:description" content="Nine to Fur: an animated comedy about commutes, rent and burnout. 60-second episodes. Coming soon.">
+<meta name="twitter:image" content="https://9to4.com/assets/poster-crosswalk.jpg">
+<meta name="twitter:image:alt" content="Syed walks a crosswalk with his three felt coworkers: Mo the capybara, Pip the pigeon and Ms. Hoot the owl.">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2314213D'/%3E%3Ccircle cx='32' cy='32' r='24' fill='%23D9A42B'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial,sans-serif' font-weight='900' font-size='34' text-anchor='middle' fill='%2314213D'%3E9%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Figtree:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-yt" viewBox="0 0 24 24"><path fill="currentColor" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8ZM10 15V9l5.2 3L10 15Z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.3" fill="currentColor"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#top" aria-label="Nine to Fur, back to top">
+      <img class="brand-mark" src="assets/mo-avatar.jpg" width="40" height="40" alt="" aria-hidden="true">
+      <span class="brand-name">Nine to Fur</span>
+    </a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="#cast">Cast</a>
+      <a href="#window-desk">Window Desk</a>
+      <a href="#episodes">Episodes</a>
+    </nav>
+    <div class="topbar-actions">
+      <span class="now" id="now" aria-hidden="true"></span>
+      <button class="clockin" id="clockin" type="button" aria-pressed="false">
+        <span class="lamp lamp--sm" aria-hidden="true"></span>
+        <span id="clockin-label">Clock in</span>
+      </button>
+      <a class="icon-btn" href="https://www.youtube.com/@nine2fur" target="_blank" rel="noopener" aria-label="Nine to Fur on YouTube (opens in a new tab)">
+        <svg width="22" height="22" aria-hidden="true"><use href="#i-yt"/></svg>
+      </a>
+      <a class="icon-btn" href="https://www.instagram.com/nine2fur/" target="_blank" rel="noopener" aria-label="Nine to Fur on Instagram (opens in a new tab)">
+        <svg width="22" height="22" aria-hidden="true"><use href="#i-ig"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 1. HERO -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <p class="pill">A comic series. Coming soon.</p>
+      <h1 id="hero-title">Surviving adulthood, one Monday at a time.</h1>
+
+      <figure class="poster">
+        <span class="tape" aria-hidden="true"></span>
+        <img src="assets/poster-crosswalk.jpg" width="900" height="1200" fetchpriority="high"
+             alt="Poster for Nine to Fur: Syed in a dark jacket walks across a crosswalk while his three felt coworkers follow behind: Mo the capybara in a green knit sweater holding a coffee, Pip the pigeon wearing a tie and lanyard, and Ms. Hoot the owl in glasses taking a phone call.">
+      </figure>
+
+      <p class="sub">Animated comedy about commutes, rent, bills and burnout. 60-second episodes. Mostly felt. <strong>@nine2fur</strong></p>
+
+      <div class="cta-row">
+        <a class="btn btn--navy" href="https://www.youtube.com/@nine2fur" target="_blank" rel="noopener">
+          <svg width="24" height="24" aria-hidden="true"><use href="#i-yt"/></svg>
+          Subscribe on YouTube
+        </a>
+        <a class="btn btn--mustard" href="https://www.instagram.com/nine2fur/" target="_blank" rel="noopener">
+          <svg width="24" height="24" aria-hidden="true"><use href="#i-ig"/></svg>
+          Follow on Instagram
+        </a>
+      </div>
+
+      <p class="status"><span class="lamp" aria-hidden="true"></span><span>Status: in a meeting that could've been an email.</span></p>
+    </div>
+    <div class="crosswalk" aria-hidden="true"></div>
+  </section>
+
+  <!-- 2. TICKER -->
+  <section class="ticker" aria-label="Office announcements">
+    <div class="ticker-track">
+      <ul>
+        <li>Reminder: Monday starts at 9:00. Monday does not care how you feel.</li>
+        <li>Coffee machine out of order. Mo has been informed. Mo is unbothered.</li>
+        <li>Rent is due on the 1st. The 1st is in three hours.</li>
+        <li>Please stop feeding the pigeon. The pigeon has a lanyard now.</li>
+        <li>Performance reviews this Friday. Ms. Hoot is available. Ms. Hoot is always available.</li>
+        <li>The Window Desk is still available. Syed has been notified.</li>
+        <li>Bus 9 is late. Bus 9 is always late. Bus 9 is a lifestyle.</li>
+        <li>Snacks labelled "Do Not Touch" are not for touching. Pip has been informed.</li>
+        <li>Lanyards are for ID badges. Lanyards are not for pigeons.</li>
+        <li>Lunch break is 45 minutes. Lunch is 4 minutes. Please manage accordingly.</li>
+      </ul>
+      <ul aria-hidden="true">
+        <li>Reminder: Monday starts at 9:00. Monday does not care how you feel.</li>
+        <li>Coffee machine out of order. Mo has been informed. Mo is unbothered.</li>
+        <li>Rent is due on the 1st. The 1st is in three hours.</li>
+        <li>Please stop feeding the pigeon. The pigeon has a lanyard now.</li>
+        <li>Performance reviews this Friday. Ms. Hoot is available. Ms. Hoot is always available.</li>
+        <li>The Window Desk is still available. Syed has been notified.</li>
+        <li>Bus 9 is late. Bus 9 is always late. Bus 9 is a lifestyle.</li>
+        <li>Snacks labelled "Do Not Touch" are not for touching. Pip has been informed.</li>
+        <li>Lanyards are for ID badges. Lanyards are not for pigeons.</li>
+        <li>Lunch break is 45 minutes. Lunch is 4 minutes. Please manage accordingly.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 3. CAST -->
+  <section class="cast" id="cast" aria-labelledby="cast-title">
+    <div class="wrap">
+      <h2 class="h-section" id="cast-title">Cast</h2>
+
+      <div class="cast-grid">
+
+        <!-- SYED, LEAD -->
+        <article class="id-card id-card--lead" style="--r:-1deg" aria-labelledby="n-syed">
+          <div class="lanyard" aria-hidden="true"></div>
+          <div class="badge">
+            <span class="stamp" aria-hidden="true">Lead</span>
+            <div class="badge-head">
+              <img class="photo" src="assets/syed.jpg" width="480" height="640" loading="lazy" alt="Syed, a bearded man with glasses in a dark jacket, looking up at the camera.">
+              <div class="ident">
+                <h3 id="n-syed">Syed</h3>
+                <p class="job">Junior Analyst, Window Desk Candidate</p>
+                <p class="role">Lead. New hire. Season goal: The Window Desk.</p>
+              </div>
+            </div>
+            <div class="badge-body">
+              <p class="bio">Glasses, beard, one goal. Believes one flawless week earns the window.</p>
+              <dl class="facts">
+                <div><dt>Department</dt><dd>Operations, Week One</dd></div>
+                <div><dt>Employee since</dt><dd>This Monday. Still this Monday.</dd></div>
+                <div><dt>Known for</dt><dd>Being one good week away from the window desk.</dd></div>
+              </dl>
+              <div class="skillbox">
+                <h4 class="mini">Skills</h4>
+                <ul class="skills">
+                <li>Flawless week planning</li>
+                <li>Smiling through a fire drill</li>
+                <li>Carrying a tiffin with dignity</li>
+              </ul>
+              </div>
+              <figure class="review">
+                <figcaption>Performance review (HR)</figcaption>
+                <blockquote>"Syed's window desk application is under review. It has been under review since Monday."</blockquote>
+              </figure>
+              <p class="state"><span class="dot" aria-hidden="true"></span><span><strong>Status:</strong> Week one. Still believes in week one.</span></p>
+            </div>
+          </div>
+        </article>
+
+        <!-- MO -->
+        <article class="id-card" style="--r:1.2deg" aria-labelledby="n-mo">
+          <div class="lanyard" aria-hidden="true"></div>
+          <div class="badge">
+            <div class="badge-head">
+              <img class="photo" src="assets/mo.jpg" width="317" height="572" loading="lazy" alt="Mo, a felt capybara in a green knit sweater, standing with a tired, unimpressed face.">
+              <div class="ident">
+                <h3 id="n-mo">Mo</h3>
+                <p class="job">Senior Analyst, Level: Tired</p>
+              </div>
+            </div>
+            <div class="badge-body">
+              <p class="bio">Holds the coffee. The coffee is empty. Has not reacted to anything since the last review.</p>
+              <dl class="facts">
+                <div><dt>Department</dt><dd>Operations (Sitting Down)</dd></div>
+                <div><dt>Employee since</dt><dd>Before the coffee machine broke.</dd></div>
+                <div><dt>Known for</dt><dd>Absorbing whatever Pip breaks, then sighing.</dd></div>
+              </dl>
+              <div class="skillbox">
+                <h4 class="mini">Skills</h4>
+                <ul class="skills">
+                <li>Slow blink, perfected</li>
+                <li>Tiny sigh, visible from across the floor</li>
+                <li>Holding an empty mug with total commitment</li>
+              </ul>
+              </div>
+              <figure class="review">
+                <figcaption>Performance review (Ms. Hoot)</figcaption>
+                <blockquote>"Mo's stillness is inspiring. Please stop asking him to react."</blockquote>
+              </figure>
+              <p class="state"><span class="dot" aria-hidden="true"></span><span><strong>Status:</strong> Holding an empty coffee. Not refilling it.</span></p>
+            </div>
+          </div>
+        </article>
+
+        <!-- PIP -->
+        <article class="id-card" style="--r:-1.4deg" aria-labelledby="n-pip">
+          <div class="lanyard" aria-hidden="true"></div>
+          <div class="badge">
+            <div class="badge-head">
+              <img class="photo" src="assets/pip.jpg" width="266" height="572" loading="lazy" alt="Pip, a felt pigeon in a tie and lanyard, standing with wide, eager eyes.">
+              <div class="ident">
+                <h3 id="n-pip">Pip</h3>
+                <p class="job">Head of Bold Ideas (Unvetted)</p>
+              </div>
+            </div>
+            <div class="badge-body">
+              <p class="bio">Eager, overconfident, one flap away from the next incident. Wears a tie. Nobody asked.</p>
+              <dl class="facts">
+                <div><dt>Department</dt><dd>Innovation, probably</dd></div>
+                <div><dt>Employee since</dt><dd>Last Tuesday. Badge still warm.</dd></div>
+                <div><dt>Known for</dt><dd>Causing the mess, then getting rewarded for it.</dd></div>
+              </dl>
+              <div class="skillbox">
+                <h4 class="mini">Skills</h4>
+                <ul class="skills">
+                <li>Bouncing into meetings</li>
+                <li>Head-bobbing at the wrong moment</li>
+                <li>Turning a printer into a crisis</li>
+              </ul>
+              </div>
+              <figure class="review">
+                <figcaption>Performance review (Ms. Hoot)</figcaption>
+                <blockquote>"Pip, your energy is unmatched. Please stop using the pantry as a launch pad."</blockquote>
+              </figure>
+              <p class="state"><span class="dot" aria-hidden="true"></span><span><strong>Status:</strong> Mid-flap. Mid-idea. Mid-incident.</span></p>
+            </div>
+          </div>
+        </article>
+
+        <!-- MS. HOOT -->
+        <article class="id-card" style="--r:1deg" aria-labelledby="n-hoot">
+          <div class="lanyard" aria-hidden="true"></div>
+          <div class="badge">
+            <div class="badge-head">
+              <img class="photo" src="assets/hoot.jpg" width="348" height="572" loading="lazy" alt="Ms. Hoot, a felt owl in round glasses and a plum knit cardigan, standing calmly.">
+              <div class="ident">
+                <h3 id="n-hoot">Ms. Hoot</h3>
+                <p class="job">Director of Everything (On a Call)</p>
+              </div>
+            </div>
+            <div class="badge-body">
+              <p class="bio">Tall, serene, always on a call. Notices nothing. Arrives at the worst possible moment.</p>
+              <dl class="facts">
+                <div><dt>Department</dt><dd>Leadership (Currently in a Meeting)</dd></div>
+                <div><dt>Employee since</dt><dd>Before the desks were assigned.</dd></div>
+                <div><dt>Known for</dt><dd>Arriving at the worst possible moment and noticing nothing.</dd></div>
+              </dl>
+              <div class="skillbox">
+                <h4 class="mini">Skills</h4>
+                <ul class="skills">
+                <li>Muting herself at the perfect moment</li>
+                <li>Slow head rotation for emphasis</li>
+                <li>Ending every meeting with one slow nod</li>
+              </ul>
+              </div>
+              <figure class="review">
+                <figcaption>Performance review (HR)</figcaption>
+                <blockquote>"Ms. Hoot has been in a meeting since onboarding. Please do not interrupt."</blockquote>
+              </figure>
+              <p class="state"><span class="dot" aria-hidden="true"></span><span><strong>Status:</strong> On a call. Never blinks.</span></p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. THE WINDOW DESK -->
+  <section class="desk" id="window-desk" aria-labelledby="desk-title">
+    <div class="wrap desk-grid">
+
+      <div class="desk-copy">
+        <h2 class="h-section" id="desk-title">The Window Desk</h2>
+        <p class="teaser">There is one desk with a window, and Syed wants it. He believes one flawless week earns it, and every episode, something tiny ruins it. What's outside the window?</p>
+
+        <svg class="window-art" viewBox="0 0 260 300" role="img" aria-label="A closed office window with the blinds half down and a question mark on the glass. A potted plant sits on the sill.">
+          <rect x="10" y="10" width="240" height="250" rx="14" fill="#F3EBD8" stroke="#14213D" stroke-width="6"/>
+          <rect x="30" y="30" width="200" height="200" rx="6" fill="#A8BA9F" stroke="#14213D" stroke-width="5"/>
+          <path d="M130 30v200M30 130h200" stroke="#14213D" stroke-width="5"/>
+          <g fill="#F3EBD8" stroke="#14213D" stroke-width="3">
+            <rect x="33" y="33" width="194" height="14" rx="3"/>
+            <rect x="33" y="51" width="194" height="14" rx="3"/>
+            <rect x="33" y="69" width="194" height="14" rx="3"/>
+            <rect x="33" y="87" width="194" height="14" rx="3"/>
+          </g>
+          <text x="130" y="195" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="700" font-size="84" fill="#14213D">?</text>
+          <rect x="0" y="256" width="260" height="16" rx="6" fill="#D9A42B" stroke="#14213D" stroke-width="5"/>
+          <g stroke="#14213D" stroke-width="4" stroke-linejoin="round">
+            <path d="M104 296l-6-26h44l-6 26z" fill="#BE2D1B"/>
+            <path d="M120 270c-22-4-30-20-26-36 18 2 28 16 26 36z" fill="#5E7458"/>
+            <path d="M122 270c6-22 18-34 36-36 4 18-6 32-36 36z" fill="#A8BA9F"/>
+            <path d="M121 270c-8-26-4-44 2-56 8 12 8 34-2 56z" fill="#5E7458"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="desk-side">
+        <div class="sign" role="group" aria-label="Days without incident: 0">
+          <span class="chain chain--l" aria-hidden="true"></span>
+          <span class="chain chain--r" aria-hidden="true"></span>
+          <p class="sign-label">Days without incident</p>
+          <p class="sign-num" aria-hidden="true">0</p>
+        </div>
+
+        <div class="win">
+          <div class="win-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+          <table class="board">
+            <caption>Desk leaderboard: days without incident</caption>
+            <thead><tr><th scope="col">Desk hopeful</th><th scope="col">Days without incident</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Syed</th><td>0</td></tr>
+              <tr><th scope="row">Pip</th><td>0 (proud of it)</td></tr>
+              <tr><th scope="row">Mo</th><td>0 (he has not noticed)</td></tr>
+              <tr><th scope="row">Ms. Hoot</th><td>Not tracked. She is on a call.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="holder"><strong>Current window desk holder:</strong> A plant. Nobody remembers who watered it.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. EPISODES -->
+  <section class="episodes" id="episodes" aria-labelledby="ep-title">
+    <div class="wrap">
+      <h2 class="h-section" id="ep-title">Episodes</h2>
+      <div class="win win--wide">
+        <div class="win-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+        <ul class="inbox">
+          <li>
+            <span class="cal" aria-hidden="true"></span>
+            <div class="ep-text">
+              <h3>Monday Commute</h3>
+              <p>Syed leaves early. Pip finds a shortcut. Mo has seen this bus before.</p>
+            </div>
+            <span class="soon">Coming soon</span>
+          </li>
+          <li>
+            <span class="cal" aria-hidden="true"></span>
+            <div class="ep-text">
+              <h3>Rent Day</h3>
+              <p>Syed counts coins for the landlord. Pip sees the jar as a savings plan.</p>
+            </div>
+            <span class="soon">Coming soon</span>
+          </li>
+          <li>
+            <span class="cal" aria-hidden="true"></span>
+            <div class="ep-text">
+              <h3>Performance Review</h3>
+              <p>Ms. Hoot joins the call. Syed is ready. Pip's improvement plan is mostly glue.</p>
+            </div>
+            <span class="soon">Coming soon</span>
+          </li>
+          <li>
+            <span class="cal" aria-hidden="true"></span>
+            <div class="ep-text">
+              <h3>Payday</h3>
+              <p>The salary lands. Syed budgets. Pip throws a parade. Mo watches the balance drop.</p>
+            </div>
+            <span class="soon">Coming soon</span>
+          </li>
+          <li>
+            <span class="cal" aria-hidden="true"></span>
+            <div class="ep-text">
+              <h3>Lunch Break</h3>
+              <p>Syed guards his tiffin. Pip has other plans. Ms. Hoot notices nothing.</p>
+            </div>
+            <span class="soon">Coming soon</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 + 7. SOUND FAMILIAR + FAKE STATS -->
+  <section class="silent" aria-labelledby="silent-title">
+    <div class="wrap">
+      <div class="silent-head">
+        <svg class="mute" viewBox="0 0 64 64" aria-hidden="true" width="84" height="84">
+          <path d="M14 22h30l-4 32H18z" fill="#14213D"/>
+          <path d="M44 28h5a7 7 0 0 1 0 14h-7" fill="none" stroke="#14213D" stroke-width="5"/>
+          <path d="M22 8c0 5 6 5 6 10M32 6c0 5 6 5 6 10" fill="none" stroke="#BE2D1B" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <h2 class="h-section h-section--on-mustard" id="silent-title">Sound familiar?</h2>
+      </div>
+      <p class="silent-copy">It's your work week. Just fuzzier.</p>
+      <p class="silent-copy silent-copy--small">Just a slow blink, a tiny sigh, and a pigeon near the printer.</p>
+
+      <ul class="notes" aria-label="Office statistics">
+        <li class="note" style="--r:-2.5deg;--c:#FBF3C9">
+          <span class="num">312</span>
+          <span class="cap">printer jams (Pip's count)</span>
+        </li>
+        <li class="note" style="--r:2deg;--c:#F3EBD8">
+          <span class="num">0</span>
+          <span class="cap">coffees Mo has finished</span>
+        </li>
+        <li class="note" style="--r:-1.5deg;--c:#C9D6C2">
+          <span class="num">1</span>
+          <span class="cap">window desk (still not Syed's)</span>
+        </li>
+        <li class="note" style="--r:2.6deg;--c:#FBF3C9">
+          <span class="num">9:01</span>
+          <span class="cap">Syed's average arrival time</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 8. FOLLOW CTA -->
+  <section class="follow" id="follow" aria-labelledby="follow-title">
+    <div class="wrap follow-grid">
+      <div>
+        <h2 class="h-follow" id="follow-title">Clock out. Follow the chaos.</h2>
+        <p class="follow-sub">Episodes drop soon. Follow @nine2fur so you don't miss the first Monday.</p>
+        <div class="cta-row">
+          <a class="btn btn--mustard" href="https://www.youtube.com/@nine2fur" target="_blank" rel="noopener">
+            <svg width="24" height="24" aria-hidden="true"><use href="#i-yt"/></svg>
+            Subscribe on YouTube
+          </a>
+          <a class="btn btn--cream" href="https://www.instagram.com/nine2fur/" target="_blank" rel="noopener">
+            <svg width="24" height="24" aria-hidden="true"><use href="#i-ig"/></svg>
+            Follow on Instagram
+          </a>
+        </div>
+      </div>
+
+      <div class="punch">
+        <div class="punch-card">
+          <p class="punch-row"><span>In</span><span class="punch-time">9:01</span></p>
+          <p class="punch-row"><span>Out</span><span class="punch-time" id="out-time">--:--</span></p>
+          <span class="punch-stamp" id="punch-stamp" aria-hidden="true">Clocked out</span>
+        </div>
+        <button class="btn btn--red" id="clockout" type="button" aria-pressed="false">
+          <span id="clockout-label">Clock out</span>
+        </button>
+        <p class="clockout-joke" id="clockout-joke" aria-live="polite">Clocking out at 6:00? Ms. Hoot is still on the call. Follow so you're not the last one left in the office.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 9. FOOTER -->
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p class="foot-brand"><img class="brand-mark" src="assets/mo-avatar.jpg" width="40" height="40" alt="" aria-hidden="true"> Nine to Fur</p>
+    <p>&copy; 2026 Nine to Fur</p>
+    <p>Created with AI tools and human direction.</p>
+    <p class="foot-joke">Ms. Hoot approved this footer. She did not read it.</p>
+    <p class="foot-links">
+      <a href="https://www.youtube.com/@nine2fur" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.instagram.com/nine2fur/" target="_blank" rel="noopener">Instagram</a>
+    </p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
