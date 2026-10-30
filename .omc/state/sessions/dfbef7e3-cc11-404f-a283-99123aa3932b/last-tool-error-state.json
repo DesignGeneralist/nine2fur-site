@@ -1,7 +1,0 @@
-{
-  "tool_name": "mcp__claude-in-chrome__browser_batch",
-  "tool_input_preview": "{\"actions\":[{\"name\":\"navigate\",\"input\":{\"url\":\"https://dcc.godaddy.com/control/portfolio/nine2fur.com/settings?tab=dns\",\"tabId\":2111969443}},{\"name\":\"computer\",\"input\":{\"action\":\"wait\",\"duration\":4,\"t...",
-  "error": "[navigate] Navigated to https://dcc.godaddy.com/control/portfolio/nine2fur.com/settings?tab=dns\n[computer:wait] Waited for 4 seconds\n\nactions[2] (find) failed: The accessibility tree provided does not contain actual DNS records table data. While the page structure shows a \"DNS Records\" tab (ref_156) and indicates \"7 records\" (ref_187), the actual table rows containing the A @ and CNAME www records with their data values are not present in the accessibility tree. The tree only shows loading statu...",
-  "timestamp": "2026-10-30T18:53:01.915Z",
-  "retry_count": 1
-}
